@@ -1,0 +1,148 @@
+:root {
+  --body-color: hsl(0deg 0% 94%);
+  --pale-blue: hsl(225, 100%, 94%);
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --bright-blue: hsl(245, 75%, 52%);
+  --dark-blue: hsl(245deg 83% 68%);
+  --plan-link: hsl(246deg 33% 62%);
+  --text-color: hsl(222deg 11% 64%);
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: var(--body-color);
+  font-size: 16px;
+  font-family: "Red Hat Display";
+}
+
+.card {
+  width: 350px;
+  max-width: 70%;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0px 18px 16px -9px grey;
+}
+
+.summary {
+  padding: 0px 30px 30px 30px;
+}
+
+.title {
+  text-align: center;
+  font-weight: bolder;
+}
+
+.content {
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  font-weight: bold;
+  color: var(--text-color);
+}
+
+.img {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.music_icon {
+  width: 40px;
+  margin-right: 1rem;
+}
+
+.layout {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: 3rem auto 3rem auto;
+  background-image: url("images/pattern-background-desktop.svg");
+  background-size: 100%;
+  background-position-y: -86px;
+  width: 90%;
+  max-height: 80%;
+  height: 700px;
+  /* margin-top: auto; */
+  background-repeat: no-repeat;
+  background-color: var(--pale-blue);
+  box-shadow: -2px 18px 41px -9px rgba(0, 0, 0, 0.27);
+  -webkit-box-shadow: -2px 18px 41px -9px rgba(0, 0, 0, 0.27);
+  -moz-box-shadow: -2px 18px 41px -9px rgba(0, 0, 0, 0.27);
+  /* padding: 10px; */
+}
+
+.plan {
+  background-color: var(--very-pale-blue);
+  padding: 15px;
+  border-radius: 10px;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.option a:hover {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--plan-link);
+}
+
+.col1 {
+  display: flex;
+}
+
+.text {
+  color: var(--text-color);
+}
+
+.btn {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+button {
+  padding: 10px;
+  color: white;
+  width: 95%;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--bright-blue);
+  box-shadow: -4px 22px 22px -11px grey;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: var(--dark-blue);
+}
+
+.footerText {
+  font-weight: bold;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.footerText:hover {
+  cursor: pointer;
+  color: black;
+}
+
+@media (max-width: 375px) {
+  .layout {
+    background-image: url("images/pattern-background-mobile.svg");
+    background-position-y: 0;
+  }
+  .plan {
+    flex-direction: column;
+  }
+  .option {
+    margin-top: 0.3rem;
+  }
+}
