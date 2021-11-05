@@ -65,11 +65,10 @@ img {
   margin: 3rem auto 3rem auto;
   background-image: url("images/pattern-background-desktop.svg");
   background-size: 100%;
-  background-position-y: -86px;
+  background-position-y: -1px;
   width: 90%;
   max-height: 80%;
   height: 700px;
-  /* margin-top: auto; */
   background-repeat: no-repeat;
   background-color: var(--pale-blue);
   box-shadow: -2px 18px 41px -9px rgba(0, 0, 0, 0.27);
