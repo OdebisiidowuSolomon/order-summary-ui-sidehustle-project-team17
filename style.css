@@ -4,8 +4,9 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --bright-blue: hsl(245, 75%, 52%);
   --dark-blue: hsl(245deg 83% 68%);
-  --plan-link: hsl(246deg 33% 62%);
+  --desaturated-blue: hsl(246deg 33% 62%);
   --text-color: hsl(222deg 11% 64%);
+  --font-size: 16px;
 }
 
 body {
@@ -13,7 +14,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: var(--body-color);
-  font-size: 16px;
+  font-size: var(--font-size);
   font-family: "Red Hat Display";
 }
 
@@ -21,7 +22,6 @@ body {
   width: 350px;
   max-width: 70%;
   background-color: white;
-  margin: auto;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 18px 16px -9px grey;
@@ -61,6 +61,7 @@ img {
 .layout {
   display: flex;
   align-items: center;
+  justify-content: center;
   border-radius: 5px;
   margin: 3rem auto 3rem auto;
   background-image: url("images/pattern-background-desktop.svg");
@@ -74,7 +75,6 @@ img {
   box-shadow: -2px 18px 41px -9px rgba(0, 0, 0, 0.27);
   -webkit-box-shadow: -2px 18px 41px -9px rgba(0, 0, 0, 0.27);
   -moz-box-shadow: -2px 18px 41px -9px rgba(0, 0, 0, 0.27);
-  /* padding: 10px; */
 }
 
 .plan {
@@ -92,7 +92,7 @@ img {
 .option a:hover {
   text-decoration: none;
   font-weight: bold;
-  color: var(--plan-link);
+  color: var(--desaturated-blue);
 }
 
 .col1 {
