@@ -48,7 +48,7 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 ### Links
 
-- Link To Live Site [Landing Site](https://sidehustle-landpage.netlify.app/)
+- Link To Live Site [Order Summary Ui](https://order-summary-ui-sidehustle.netlify.app/)
 
 
 ## The process
