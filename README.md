@@ -66,7 +66,21 @@ There is also a `style-guide.md` file containing the information you'll need, su
 - The project is hosted on Netlify
 
 ## Team Members:
-
+- Odebisi Solomon Idowu(Team Lead)
+- Okoro Amarachi Uka
+- Vincent Mnkhambo
+- Emmett STONE Gbatu
+- Imaobong Godwin Ekanem
+- Imoleayo Bisiolu
+- Aomako Kingsley Kofi
+- Issa Barakat
+- May Ozohili 
+- Kenneth Ogechukwu
+- Edun Olamide
+- Ogbu Anthony Chukwuemeka
+- Blessing inyang
+- David Adegbile
+- Grace Okome
 
 ## Acknowledgments
 
