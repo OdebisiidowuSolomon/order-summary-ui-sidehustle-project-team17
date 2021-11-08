@@ -67,6 +67,7 @@ There is also a `style-guide.md` file containing the information you'll need, su
 
 ## Team Members:
 - Odebisi Solomon Idowu(Team Lead)
+- Enyojo Abimaje
 - Okoro Amarachi Uka
 - Vincent Mnkhambo
 - Emmett STONE Gbatu
@@ -81,6 +82,11 @@ There is also a `style-guide.md` file containing the information you'll need, su
 - Blessing inyang
 - David Adegbile
 - Grace Okome
+- Olatunde Rasheed Taiwo
+- Jesse Owusu Yeboah
+- Azubuike Micheal Enefazu
+- Odoh Osita Destiny
+- Vincent Mnkhambo
 
 ## Acknowledgments
 
