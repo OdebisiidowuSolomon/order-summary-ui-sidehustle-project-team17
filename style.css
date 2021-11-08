@@ -115,6 +115,7 @@ button {
   border: none;
   background-color: var(--bright-blue);
   box-shadow: -4px 22px 22px -11px grey;
+  transition: all 0.7s;
 }
 
 button:hover {
@@ -126,11 +127,17 @@ button:hover {
   font-weight: bold;
   color: var(--text-color);
   text-align: center;
+  transition: all 0.7s;
 }
 
 .footerText:hover {
   cursor: pointer;
   color: black;
+}
+
+.change-link {
+  font-weight: 600;
+  transition: all 0.7s;
 }
 
 @media (max-width: 375px) {
