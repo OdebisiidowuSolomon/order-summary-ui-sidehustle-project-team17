@@ -49,7 +49,7 @@ There is also a `style-guide.md` file containing the information you'll need, su
 ### Links
 
 - Link To Live Site [Order Summary Ui](https://order-summary-ui-sidehustle.netlify.app/)
-
+- Link To Source Code [Here](https://github.com/OdebisiidowuSolomon/order-summary-ui-sidehustle-project)
 
 ## The process
 
