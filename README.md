@@ -1,4 +1,6 @@
-# Frontend Mentor - Order summary card
+# Group 17 FrontEnd Development Track (Capstone Project 1)
+
+## Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
 
