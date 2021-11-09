@@ -93,6 +93,6 @@ There is also a `style-guide.md` file containing the information you'll need, su
 ## Acknowledgments
 
 We Would Really Like To thank Sidehustle Internship Team For The Opportunity to Grow and Learn At The Same Time, 
-We would Also Love To Say a Big Thank To Our Mentor Mr Damilare For A Providing Great Project like This To Work On!
+We would Also Love To Say a Big Thank To Our Mentor Mr Damilare For Providing Such A Great Project like This To Work On!
 
 
